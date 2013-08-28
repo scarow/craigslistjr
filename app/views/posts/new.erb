@@ -1,0 +1,12 @@
+<form id='post_form' action="/post" method='post'>
+  <label for='title'>Title:</label>
+  <input type='text' name='title' />
+  <label for='text'>Text:</label>
+  <textarea name='text'></textarea>
+  <label for='price'>Price:</label>
+  <input type='text' name='price' />
+  <label for='email'>Email:</label>
+  <input type='text' name='email' />
+  <input type='hidden' name='category_id' value="<%= @category.id %>" />
+  <input type='submit' value='SamsList is so Cool!' />
+</form>
