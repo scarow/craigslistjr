@@ -6,6 +6,7 @@ class CreatePosts < ActiveRecord::Migration
       t.integer   :price #is there a better datatype for currency?
       t.string    :email
       t.integer   :category_id
+      t.string    :secret_url
     end
   end
 end
